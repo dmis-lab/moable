@@ -13,3 +13,5 @@ Identifying mechanism of actions (MoA) of novel compounds is crucial in drug dis
 We present MoAble, which predicts MoAs without requiring compound signatures. We train adeep learning-based co-embedding model to map compound signatures and compound structure intothe same embedding space. The model generates low-dimensional compound signature representationfrom the compound structure. To predict MoAs, pathway enrichment analysis is performed based on theconnectivity between embedding vectors of compounds and those of genetic perturbation. Results showthat MoAble is comparable to the methods that use actual compound signatures. We demonstrate thatMoAble can be used to reveal MoAs of novel compounds without measuring compound signatures withthe same prediction accuracy as measuring it.
 
 ## Overview of MoAble
+
+![overview](https://user-images.githubusercontent.com/56992294/106699777-dbf52a80-6626-11eb-824a-cf41530380d5.png)
