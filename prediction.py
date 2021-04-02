@@ -7,14 +7,8 @@ import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 import gseapy as gp
 
-# import model
-
-cell_emb = dict()
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-
-# model = model.moable(None)
-# model.load_state_dict(torch.load('model/moable.pth'), strict=False)
-model = torch.load('model/moable_drug_encoder.pth')
+model = torch.load('model/moable.pth')
 model.to(device)
 model.eval()
 
