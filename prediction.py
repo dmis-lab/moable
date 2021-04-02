@@ -7,13 +7,14 @@ import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 import gseapy as gp
 
-import model
+# import model
 
 cell_emb = dict()
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-model = model.moable(None)
-model.load_state_dict(torch.load('model/moable.pth'), strict=False)
+# model = model.moable(None)
+# model.load_state_dict(torch.load('model/moable.pth'), strict=False)
+model = torch.load('model/moable_drug_encoder.pth')
 model.to(device)
 model.eval()
 
@@ -34,7 +35,7 @@ def drug_embeddings(drug_dict):
         smiles = drug_dict[key]
         ecfp = torch.from_numpy(smiles2fp(smiles)).to(device)
         ecfp = ecfp.reshape(1,-1)
-        embedding = model.drug_encoder(ecfp.float()).cpu().detach().numpy().flatten()
+        embedding = model(ecfp.float()).cpu().detach().numpy().flatten()
         magnitude = np.linalg.norm(embedding)
         embedding = embedding / magnitude
         result_dict[key] = embedding
