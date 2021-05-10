@@ -6,9 +6,12 @@ import numpy as np
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 import gseapy as gp
+import model
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-model = torch.load('model/moable.pth')
+
+model = model.DrugEncoder()
+model.load_state_dict(torch.load('model/moable.pth'))
 model.to(device)
 model.eval()
 
