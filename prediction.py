@@ -59,7 +59,7 @@ for drug in CP_embedding_dict:
     pathway_res = gp.prerank(rnk=connectivity_score_df[['cmap_name','score']], 
         gene_sets='KEGG_2019_Human',
             processes=100,
-            permutation_num=100, 
+            permutation_num=1000, 
             no_plot = True,
         format='png', seed=10)
 
