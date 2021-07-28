@@ -19,5 +19,5 @@ We present MoAble, which predicts MoAs without requiring compound signatures. We
 
 ## Resources
 
-### Pretrained model & Data
+### Data
 - [moable v1.21 (pytorch)](https://drive.google.com/drive/folders/1ZDerqTBeRvSWPshfODixjjvafpjjF9Mh?usp=sharing)
