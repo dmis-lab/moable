@@ -16,8 +16,14 @@ We present MoAble, which predicts MoAs without requiring compound signatures. We
 
 ![overview](https://user-images.githubusercontent.com/56992294/106699777-dbf52a80-6626-11eb-824a-cf41530380d5.png)
 
-
 ## Resources
 
 ### Data
 - [moable v1.21 (pytorch)](https://drive.google.com/drive/folders/1ZDerqTBeRvSWPshfODixjjvafpjjF9Mh?usp=sharing)
+
+## License
+
+This software is copyrighted by Data Mining and Information Systems Lab @ Korea University.
+
+The source code and data can be used only for NON COMMERCIAL purposes.
+
