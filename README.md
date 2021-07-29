@@ -24,16 +24,15 @@ We present MoAble, which predicts MoAs without requiring compound signatures. We
 
 ## Requirements
 
-Python 3.6
-
-Pytorch >= 1.7.1
-
-scikit-learn
-
-rdkit
-
-gseapy
-
+```bash
+$ conda create -n MoAble python=3.6
+$ conda activate MoAble
+$ conda install numpy pandas requests scikit-learn
+$ conda install -c rdkit rdkit
+$ conda install -c conda-forge -c bioconda gseapy
+$ conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch -c nvidia
+```
+Note that Pytorch has to be installed depending on the version of CUDA.
 
 ## Predict MoA
 
