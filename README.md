@@ -21,9 +21,20 @@ We present MoAble, which predicts MoAs without requiring compound signatures. We
 ### Data
 - [moable v1.21 (pytorch)](https://drive.google.com/drive/folders/1ZDerqTBeRvSWPshfODixjjvafpjjF9Mh?usp=sharing)
 
+## Predict MoA
+
+The source code is for predicting MoAs of novel compounds with MoAble.
+
+```bash
+$ python prediction.py 
+```
+
+GP embedding vectors, GP signature data, and pretrained model checkpoint are required to run the code. 
+GP data can be downloaded from the Google Drive link in the resources section. 
+Please contact Gwanghoon Jang (jghoon (at) korea.ac.kr) for downloading pretrained model checkpoint.
+
 ## License
 
 This software is copyrighted by Data Mining and Information Systems Lab @ Korea University.
 
 The source code and data can be used only for NON COMMERCIAL purposes.
-
