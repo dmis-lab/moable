@@ -21,6 +21,20 @@ We present MoAble, which predicts MoAs without requiring compound signatures. We
 ### Data
 - [moable v1.21 (pytorch)](https://drive.google.com/drive/folders/1ZDerqTBeRvSWPshfODixjjvafpjjF9Mh?usp=sharing)
 
+
+### Requirements
+
+Python 3.6
+
+Pytorch >= 1.7.1
+
+scikit-learn
+
+rdkit
+
+gseapy
+
+
 ## Predict MoA
 
 The source code is for predicting MoAs of novel compounds with MoAble.
