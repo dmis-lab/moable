@@ -6,8 +6,11 @@ A Pytorch Implementation of paper
 
 Bioinformatics, Volume 37, Issue Supplement_1, July 2021, Pages i376–i382
 
-Gwanghoon Jang, Sungjoon Park*, Sanghoon Lee, Sunkyu Kim, Sejeong Park, Jaewoo Kang* \n
+Gwanghoon Jang, Sungjoon Park*, Sanghoon Lee, Sunkyu Kim, Sejeong Park, Jaewoo Kang* 
+
 *To whom correspondence should be addressed
+
+Presented at ISMB2021
 
 ## Abstract
 
