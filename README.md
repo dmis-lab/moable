@@ -4,11 +4,10 @@ A Pytorch Implementation of paper
 
 [Predicting mechanism of action of novelcompounds using compound structure andtranscriptomic signature co-embedding](https://doi.org/10.1093/bioinformatics/btab275)
 
-Bioinformatics, Volume 37, Issue Supplement_1, July 2021, Pages i376–i382
+Bioinformatics, Volume 37, Issue Supplement_1, July 2021, Pages i376–i382 (will be presented at ISMB/ECCB 2021)
 
 Gwanghoon Jang, Sungjoon Park*, Sanghoon Lee, Sunkyu Kim, Sejeong Park, Jaewoo Kang* 
 
-Presented at ISMB2021
 
 ## Abstract
 
