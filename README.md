@@ -8,7 +8,7 @@ Gwanghoon Jang, Sungjoon Park*, Sanghoon Lee, Sunkyu Kim, Sejeong Park, Jaewoo K
 
 Bioinformatics, Volume 37, Issue Supplement_1, July 2021, Pages i376–i382
 
-will be presented at ISMB/ECCB 2021
+To be presented at ISMB/ECCB 2021
 
 ## Abstract
 
