@@ -1,9 +1,13 @@
 # MoAble
 
-A Pytorch Implementation of paper <br/>
-[Predicting mechanism of action of novelcompounds using compound structure andtranscriptomic signature co-embedding](https://doi.org/10.1093/bioinformatics/btab275) <br/>
-Gwanghoon Jang, Sungjoon Park*, Sanghoon Lee, Sunkyu Kim, Sejeong Park, Jaewoo Kang* <br/>
-Bioinformatics, Volume 37, Issue Supplement_1, July 2021, Pages i376–i382 <br/>
+A Pytorch Implementation of paper
+
+[Predicting mechanism of action of novelcompounds using compound structure andtranscriptomic signature co-embedding](https://doi.org/10.1093/bioinformatics/btab275)
+
+Gwanghoon Jang, Sungjoon Park*, Sanghoon Lee, Sunkyu Kim, Sejeong Park, Jaewoo Kang*
+
+Bioinformatics, Volume 37, Issue Supplement_1, July 2021, Pages i376–i382
+
 To be presented at ISMB/ECCB 2021
 
 ## Abstract
