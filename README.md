@@ -2,7 +2,9 @@
 
 A Pytorch Implementation of paper
 
-Predicting mechanism of action of novelcompounds using compound structure andtranscriptomic signature co-embedding
+[Predicting mechanism of action of novelcompounds using compound structure andtranscriptomic signature co-embedding](https://academic.oup.com/bioinformatics/article/37/Supplement_1/i376/6319674)
+
+Bioinformatics, Volume 37, Issue Supplement_1, July 2021, Pages i376–i382
 
 Jang and Park et al., 2021
 
