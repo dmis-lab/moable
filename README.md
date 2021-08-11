@@ -50,8 +50,6 @@ GP embedding vectors, GP signature data, and pretrained model checkpoint are req
 
 GP data can be downloaded from the Google Drive link in the resources section. 
 
-Please contact Gwanghoon Jang (jghoon (at) korea.ac.kr) for downloading the checkpoint of pretrained model.
-
 ## License
 
 This software is copyrighted by Data Mining and Information Systems Lab @ Korea University.
