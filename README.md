@@ -24,6 +24,7 @@ We present MoAble, which predicts MoAs without requiring compound signatures. We
 
 ### Data
 - [moable v1.21 (pytorch)](https://drive.google.com/drive/folders/1ZDerqTBeRvSWPshfODixjjvafpjjF9Mh?usp=sharing)
+- [moable v1.22 (pytorch)](https://drive.google.com/drive/folders/1joHoFUSYEyULwTFgL61oT294kptjVW8O?usp=sharing)
 
 
 ## Requirements
